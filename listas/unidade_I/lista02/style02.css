@@ -1,0 +1,69 @@
+/* Estilo global */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo dos títulos */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin: 1.3em 0 0.6em;
+  }
+  
+  /* Estilo dos parágrafos */
+  p {
+    margin: 1em 0;
+  }
+  
+  /* Estilo das listas */
+  ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+  }
+  
+  /* Estilo dos links */
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo das citações */
+  blockquote {
+    margin: 1em 0;
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+  }
+  
+  /* Estilo das citações aninhadas */
+  blockquote blockquote {
+    margin: 0.5em 0;
+    padding: 0;
+    color: #444d56;
+    border-left-color: #c6cbd1;
+  }
+  
+  /* Estilo das caixas de código */
+  pre {
+    margin: 1em 0;
+    padding: 16px;
+    font-size: 85%;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    overflow: auto;
+  }
+  
+  /* Estilo das caixas de código em linha */
+  code {
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+    background-color: rgba(27,31,35,0.05);
+    border-radius: 3px;
+  }
+  
